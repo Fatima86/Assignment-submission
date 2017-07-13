@@ -1,0 +1,51 @@
+Instruction
+
+Using Neon Eclipse IDE,Os-Windows10(64bit),JDK8(64 bit),Selenium-Java 3.4 jars,Cumcumber jars,
+
+Created project Name "automation.etsy.cucumber" as Maven project 
+File->New->others->Maven->Maven project
+
+Folders as below are created under project "automation.etsy.cucumber" automatically
+
+"src/main/java"
+"src/main/resources"
+"src/test/java"
+"src/test/resources"
+"JRE System Library"
+"src"
+"target"
+"pom.xml"
+
+Add dependencies in pom.xml and save
+
+1. Maven selenium-java dependency
+2. Maven junit dependency
+3. Maven cucumber-junit dependency
+4. Maven cucumber-java dependency
+
+"Maven Dependencies" folder is created automatically with all jars.
+
+Install an plugin for features
+click Help->Install New Software
+Add the below link in "Work with" Textbox
+"http://cucumber.github.io/cucumber-eclipse/update-site/" 
+check the checkbox "Cucumber Eclipse Plugin"
+click "Finish" button
+
+Create "features" folder and "MySearchinApp.feature"
+Mention Feature and Scenarios to be Implemented in "MySearchinApp.feature"
+
+Under src/test/java Create "Runner" and "Stepprocesses" packages.
+
+Under "Runner" package create "TestRunner" class 
+Under "Stepprocesses" package create "Dropdown_steps" and "Click_Icon_steps" 
+
+Click Run->Run Configurations->
+Name        : MySearchinApp
+Project     : automation.etsy.cucumber
+FeaturePath : D:/Myworkspace/workspace/automation.etsy.cucumber/features/MySearchinApp.feature
+Glue        : classpath:
+
+click "Apply" and "Run" buttons 
+
+
