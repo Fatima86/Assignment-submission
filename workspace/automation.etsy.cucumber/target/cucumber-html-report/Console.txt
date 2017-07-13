@@ -1,0 +1,56 @@
+Feature: Test etsy.com
+1499912373781	geckodriver	INFO	Listening on 127.0.0.1:44823
+1499912374740	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1499912378886	Marionette	INFO	Listening on port 65166
+Jul 13, 2017 3:19:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1499912395428	geckodriver	INFO	Listening on 127.0.0.1:8068
+1499912396105	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1499912400351	Marionette	INFO	Listening on port 65233
+Jul 13, 2017 3:20:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1499912421672	geckodriver	INFO	Listening on 127.0.0.1:18862
+1499912422347	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1499912426598	Marionette	INFO	Listening on port 65306
+Jul 13, 2017 3:20:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+https://www.etsy.com/
+Landing to result Jewellery pag is failed through dropdown
+
+  Scenario: Test to search for a product from the drop-down menu        # D:/Myworkspace/workspace/automation.etsy.cucumber/features/MySearchinApp.feature:3
+    Given John is viewing the Etsy landing page                         # Dropdown_steps.John_is_viewing_the_Etsy_landing_page()
+    When he searches for a product from the drop-down menu              # Dropdown_steps.he_searches_for_a_product_from_the_drop_down_menu()
+    Then the result jewellery page through dropdown should be displayed # Dropdown_steps.the_result_jewellery_page_through_dropdown_should_be_displayed()
+1499912448891	geckodriver	INFO	Listening on 127.0.0.1:3969
+1499912449567	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1499912454110	Marionette	INFO	Listening on port 65391
+Jul 13, 2017 3:20:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1499912469769	geckodriver	INFO	Listening on 127.0.0.1:15312
+1499912470435	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1499912474555	Marionette	INFO	Listening on port 65464
+Jul 13, 2017 3:21:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1499912500361	geckodriver	INFO	Listening on 127.0.0.1:9179
+1499912500961	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+[GFX1]: Potential driver version mismatch ignored due to missing DLLs igd10umd32 v= and igd10iumd32.dll v=0.0.0.0
+1499912505084	Marionette	INFO	Listening on port 49155
+Jul 13, 2017 3:21:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+https://www.etsy.com/c/jewelry?anchor_listing_id=273831994&ref=hp
+Landed to result Jewellery page successfully through Icon
+
+  Scenario: Test to search for an product Icon                      # D:/Myworkspace/workspace/automation.etsy.cucumber/features/MySearchinApp.feature:8
+    Given John is viewing the Etsy landing page                     # Dropdown_steps.John_is_viewing_the_Etsy_landing_page()
+    When he searches for a product icon                             # Click_Icon.he_searches_for_a_product_icon()
+    Then the result jewellery page through Icon should be displayed # Click_Icon.the_result_jewellery_page_through_Icon_should_be_displayed()
+
+2 Scenarios (2 passed)
+6 Steps (6 passed)
+2m39.176s
+
